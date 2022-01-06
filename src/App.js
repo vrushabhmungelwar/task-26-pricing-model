@@ -1,7 +1,6 @@
 import './App.css';
-import { Card, Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (
@@ -10,8 +9,8 @@ function App() {
     <div class="row">
       {/* <!-- Free Tier --> */}
       <div class="col-lg-4">
-        <Card>
-          <Card body>
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
             <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
             <hr></hr>
@@ -32,13 +31,13 @@ function App() {
             <div class="d-grid">
             <Button variant="primary">Button</Button>
             </div>
-          </Card>
-        </Card>
+          </div>
+        </div>
       </div>
       {/* <!-- Plus Tier --> */}
       <div class="col-lg-4">
-        <Card>
-          <Card body>
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
             <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
             <hr></hr>
@@ -56,13 +55,13 @@ function App() {
             <div class="d-grid">
             <Button variant="primary">Button</Button>
             </div>
-          </Card>
-        </Card>
+          </div>
+        </div>
       </div>
       {/* <!-- Pro Tier --> */}
       <div class="col-lg-4">
-        <Card>
-          <Card body>
+        <div class="card">
+          <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
             <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
             <hr></hr>
@@ -81,8 +80,8 @@ function App() {
             <div class="d-grid">
             <Button variant="primary">Button</Button>
             </div>
-          </Card>
-        </Card>
+          </div>
+        </div>
       </div>
     </div>
   </div>
